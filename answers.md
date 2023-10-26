@@ -51,12 +51,16 @@ git checkout test
 git merge top_N
 ```
 
+The difference would mainly be that all references to 5 would be replaced with N,
+and the argument handling code wouldn't be there.
+
 6. What do you think would happen if you ran the following commands?
 What branches would change, and how?
 ```
 git checkout top_ten
 git merge test
 ```
+The difference would mainly be that all references to 5 would be replaced with 10
 
 7. What do you think would happen if you ran the following commands?
 What branches would change, and how?
@@ -65,3 +69,7 @@ git checkout test
 git rebase top_ten
 git rebase top_N
 ```
+
+First, you would have to deal with all 5's being replaced with 10's, and then
+you would have to deal with all 10's being replaced with N's. This will create
+a merge conflict, and you will have to resolve it.
