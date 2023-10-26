@@ -1,12 +1,11 @@
 1. What is your name?
-Answer:
+Answer: Ethan Vazquez
 
 2. What is your favorite color?
-Answer:
+Answer: Blue
 
 3. What is your favorite food?
-Answer:
+Answer: Sushi
 
 4. What's one place you've never been but would like to visit?
-Answer:
-
+Answer: Iceland
